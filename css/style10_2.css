@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;   
+}
+:root{
+    --bg-color: #3576C6;
+    --text-color: #0B0E66;
+    --cyan-color: #26C7EA;
+    --light-bg-color: #C8EAFF;
+    --grey-color: #736A6A;
+}
+.header-wrap{
+    background-color: var(--bg-color);
+    width: 1440px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 270px;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 90%;
+    .header-menu{       
+        gap: 255px;
+        align-items: center;
+        .but1{
+            width: 197px;
+            height: 49px;
+            background-color: var(--text-color);
+            border: none;
+            cursor: pointer;
+            p{
+                color: var(--cyan-color);
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 100%;                    
+            }
+        }
+        .header-info{
+            .menu{
+                gap: 42px;
+                .header-link{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 100%;
+                    color: white;
+                    
+                }
+                .header-link1{
+                        color: var(--text-color);
+                        font-weight: 700;
+                        font-family: "Inter", sans-serif;
+                        font-size: 20px;
+                        line-height: 100%;
+                }
+            }
+        }
+    }
+}
+.sec1-wrap{
+    height: 743px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    .sec1-image{
+        position: relative;
+        .sec1-info{
+            position: absolute;
+            bottom: 210px;
+            left: 550px;
+            width: 340px;
+            height: 120px;
+            background-color: var(--bg-color);
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 130%;
+                color: white;
+            }
+        }
+    }
+}
+.sec2-wrap{
+    flex-direction: column;
+    gap: 35px;
+    height: 808px;
+    margin-bottom: 60px;
+    align-items: center;
+    .sec2-title{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        h1{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 130%;
+            color: #121212;
+        }
+        p{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: var(--grey-color);
+            text-align: center;
+            width: 928px;
+        }
+    }
+}
+.sec3-wrap{
+    flex-direction: column;
+    gap: 35px;
+    height: 798px;
+    margin-bottom: 60px;
+    align-items: center;
+    .sec3-title{
+        flex-direction: column;
+        gap: 11px;
+        align-items: center;
+        h1{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 130%;
+            color: #121212;
+        }
+        p{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: var(--grey-color);
+            text-align: center;
+        }
+    }
+}
+
+.sec4-wrap{
+    flex-direction: column;
+    gap: 35px;
+    height: 1001px;
+    margin-bottom: 80px;
+    align-items: center;
+    .sec4-title{
+        align-items: center;
+        h1{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 130%;
+            color: #121212;
+        }
+    }
+}
+
+.sec7-wrap{
+    height: 243px;
+    background-color: var(--bg-color);
+    gap: 164px;
+    align-items: center;
+    justify-content: center;
+    .sec7-info{
+        gap: 122px;
+        .sec7-infoblock1{
+            flex-direction: column;
+            .sec7-imageblock{
+                gap: 25px;
+                margin-top: 30px;
+            }
+            h3{
+                color: var(--cyan-color);
+                font-family: "Inter", sans-serif;
+                font-style: medium;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                margin-bottom: 20px; 
+            }
+            p{
+                color: white;
+                font-family: "Inter", sans-serif;
+                font-style: medium;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 100%; 
+                margin-bottom: 10px;
+            }
+        }
+        .sec7-infoblock2{
+            flex-direction: column;
+            gap: 10px;
+            h3{
+                color: var(--cyan-color);
+                font-family: "Inter", sans-serif;
+                font-style: medium;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                margin-left: 53px;
+            }            
+            pre{
+                color: var(--cyan-color);
+                font-family: "Inter", sans-serif;
+                font-style: medium;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%; 
+                margin-left: 53px;
+            }
+            .sec7-textblock{
+                gap: 15px;
+                align-items: center;
+
+                p{
+                    color: white;
+                    font-family: "Inter", sans-serif;
+                    font-style: medium;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 100%; 
+                }
+            }
+        }
+    }
+}
